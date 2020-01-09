@@ -17,7 +17,7 @@
 		mysqli_free_result($result);
 	}
 
-	mysql_close($dbConn);
+	mysqli_close($dbConn);
 
 	//////////////////////////////////////////////////////////
 
