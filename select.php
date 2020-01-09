@@ -8,9 +8,9 @@
 	$sql = 'SELECT * FROM `table_name`';
 	if($result = mysqli_query($dbConn, $sql)) {
 		while($row = mysqli_fetch_assoc($result)) {
-    	// DO SOMETHING HERE WITH $row
-    	// e.g. var_dump($row);
-    	echo $row['name'] . "\n";
+    		// DO SOMETHING HERE WITH $row
+    		// e.g. var_dump($row);
+    		echo $row['name'] . "\n";
   		}
 
     	mysqli_free_result($result);
